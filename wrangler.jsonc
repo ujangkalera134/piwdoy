@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "piwdoy",
   "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -34,15 +34,14 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3",
-      "id": "ef93d42dc4b34969bab404d2e80f8dd3"
+      "id": "f38146cea2c3485e94874d654ae89077"
     }
   ],
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "sink",
-      "database_id": "ef964055-65bf-4b78-b109-ac9c9290ae62",
+      "database_id": "457d4db1-1260-4c3b-96ae-4ab3e7dec291",
       "migrations_dir": "drizzle"
     }
   ]
